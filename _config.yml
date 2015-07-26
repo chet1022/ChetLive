@@ -69,5 +69,5 @@ theme: pacman
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type:github
-  repository:git@github.com:chet1022/chet1022.github.com.git
+  repository:https://github.com/chet1022/chet1022.github.io.git
   branch:master
