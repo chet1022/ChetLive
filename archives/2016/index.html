@@ -64,7 +64,7 @@
   </div>
 
   <script>
-        var imgUrls = "css/images/pose01.jpg".split(",");
+        var imgUrls = "css/images/pose01.jpg,css/images/pose02.jpg".split(",");
         var random = Math.floor((Math.random() * imgUrls.length ));
         if (imgUrls[random].startsWith('http') || imgUrls[random].indexOf('://') >= 0) {
           document.getElementById("originBg").src=imgUrls[random];
